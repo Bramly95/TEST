@@ -1,14 +1,14 @@
 {
   "settings": {
     "name": "MRxNetwork",
-    "currentPage": "index.html",
+    "currentPage": "overons.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
       "styling": {}
     },
     "versionFirst": "3.10.4",
-    "uniqCompNum": 39,
+    "uniqCompNum": 43,
     "versionPublish": "3.10.4"
   },
   "pages": {
@@ -668,7 +668,7 @@
             "overlayColor": "#222",
             "showHeader": false,
             "showSubheader": false,
-            "columns": 4,
+            "columns": "5",
             "showImages": true,
             "showTitles": true,
             "showCaptions": true,
@@ -776,9 +776,13 @@
           "media5": {
             "image": {
               "active": true,
-              "src": "images/blocks.png",
+              "src": "@PROJECT_PATH@/assets/images/7020bd36b71fcf1ef106487b2d88f9fa-600x586-30.png",
               "class": "mbr-figure__img",
-              "width": 600
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "class": "mbr-figure__img",
@@ -790,9 +794,9 @@
               "size": 0
             }
           },
-          "title5": "TRENDY WEBSITE BLOCKS",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "title5": "Jitse_B",
+          "caption5": "Hallo, ik ben Jitse.",
+          "button5": "<a data-app-btn=\"true\" href=\"Jitse_B.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">Lees hier meer!</a>",
           "media6": {
             "image": {
               "active": true,
@@ -965,7 +969,7 @@
         {
           "items": [
             {
-              "text": "<p class=\"mbr-reviews__p\">“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</p>",
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus, nisi at feugiat vestibulum, tellus magna scelerisque nulla, ut semper diam dolor quis mauris. Integer porttitor augue nisl, a condimentum augue iaculis nec. Suspendisse finibus lobortis urna vel elementum. Morbi hendrerit pellentesque est. Maecenas at sem eget quam convallis placerat at bibendum elit. Fusce venenatis consequat diam. Mauris sagittis ipsum orci, eget vestibulum sapien commodo a. Praesent egestas eu purus et auctor. Curabitur bibendum nisi eget augue auctor, ut dapibus mi iaculis. Nulla laoreet molestie lacus nec consectetur. Sed quam urna, interdum at nibh nec, cursus efficitur orci. Phasellus dui enim, porta sed sagittis sed, lacinia vitae purus. Mauris molestie orci ut ante ultricies, non aliquet tellus mattis.<div><br></div><div>Vestibulum nec ipsum sit amet turpis aliquet bibendum. Donec purus purus, imperdiet nec turpis eget, euismod euismod lorem. Nulla non elit a ante consequat consectetur. Aenean sagittis a nunc vehicula tincidunt. In elementum hendrerit metus in auctor. In accumsan nisi vitae est maximus dictum. Vestibulum semper sapien nec sagittis tempor. Suspendisse potenti. Aliquam sed quam est. In hac habitasse platea dictumst. Duis a tempus nunc. Praesent justo dolor, ultrices id metus eget, molestie luctus dui.</div><div><br></div><div>Suspendisse at ante lacus. In a erat id est aliquet vestibulum at eget ligula. Aliquam erat volutpat. Ut vehicula libero eu eros dictum, ac egestas justo vestibulum. Sed metus arcu, fringilla id sapien ut, mattis imperdiet neque. Sed vestibulum nunc tortor, sed congue erat semper quis. Nulla quis sagittis mauris, a laoreet ex. Etiam vulputate nibh et ligula tristique, vitae faucibus nulla accumsan. Proin in ligula semper, congue urna at, tempor augue. Nulla lacinia, est eu blandit viverra, augue lectus vestibulum justo, sit amet volutpat justo odio a turpis. In hac habitasse platea dictumst.</div><div><br></div><div>Sed consectetur sed dui at finibus. Sed ipsum risus, euismod sed ante eu, tempus bibendum quam. Morbi sit amet interdum justo. Donec quis ex congue, facilisis leo ac, dignissim neque. Ut posuere tincidunt lectus eget ullamcorper. Duis arcu quam, consectetur vitae sodales id, dapibus sit amet diam. Mauris non tristique libero, at lacinia ipsum. In sed tortor nunc. Vivamus a massa tempor, laoreet orci ut, ornare mauris. Donec ullamcorper, ante eget aliquet hendrerit, arcu urna mollis magna, ac porta dui sem at enim. Vivamus dolor tortor, tincidunt in lorem pretium, pretium facilisis erat. Integer maximus pulvinar tempus. Etiam viverra nunc sem, eu placerat quam sollicitudin non. Praesent ac erat massa.</div><div><br></div><div>Donec sed mollis mi. Proin id molestie eros. Nunc dapibus hendrerit arcu in malesuada. Praesent ac egestas tellus. Mauris mattis maximus lacus, id facilisis velit molestie vitae. Nunc ligula nisi, lacinia ut turpis lobortis, placerat malesuada ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus eu viverra quam, vitae aliquam dolor. Etiam pulvinar tellus a augue imperdiet, et viverra nibh auctor. In ut risus efficitur, luctus turpis vel, tempor lectus. Donec sit amet ipsum urna.</div><div><br></div><div>Nullam ac erat eget mi pretium vulputate. Aenean sodales est nisl, et condimentum leo auctor ut. Duis mauris mi, feugiat mattis ipsum sed, sagittis sollicitudin.</div>",
               "authorName": "ABANOUB S.",
               "authorBio": "User"
             },
@@ -1616,6 +1620,184 @@
               "text-align": "center"
             }
           }
+        }
+      ]
+    },
+    "Jitse_B.html": {
+      "settings": {},
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-13",
+          "_params": {
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logomakr-230efb-148x128-66.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://mrxnetwork.buycraft.net/\">Shop</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Geenforum.html\">Forum</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"overons.html\">Over ons</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"Contact.html\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
+        },
+        {
+          "items": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus, nisi at feugiat vestibulum, tellus magna scelerisque nulla, ut semper diam dolor quis mauris. Integer porttitor augue nisl, a condimentum augue iaculis nec. Suspendisse finibus lobortis urna vel elementum. Morbi hendrerit pellentesque est. Maecenas at sem eget quam convallis placerat at bibendum elit. Fusce venenatis consequat diam. Mauris sagittis ipsum orci, eget vestibulum sapien commodo a. Praesent egestas eu purus et auctor. Curabitur bibendum nisi eget augue auctor, ut dapibus mi iaculis. Nulla laoreet molestie lacus nec consectetur. Sed quam urna, interdum at nibh nec, cursus efficitur orci. Phasellus dui enim, porta sed sagittis sed, lacinia vitae purus. Mauris molestie orci ut ante ultricies, non aliquet tellus mattis.<div><br></div><div>Vestibulum nec ipsum sit amet turpis aliquet bibendum. Donec purus purus, imperdiet nec turpis eget, euismod euismod lorem. Nulla non elit a ante consequat consectetur. Aenean sagittis a nunc vehicula tincidunt. In elementum hendrerit metus in auctor. In accumsan nisi vitae est maximus dictum. Vestibulum semper sapien nec sagittis tempor. Suspendisse potenti. Aliquam sed quam est. In hac habitasse platea dictumst. Duis a tempus nunc. Praesent justo dolor, ultrices id metus eget, molestie luctus dui.</div><div><br></div><div>Suspendisse at ante lacus. In a erat id est aliquet vestibulum at eget ligula. Aliquam erat volutpat. Ut vehicula libero eu eros dictum, ac egestas justo vestibulum. Sed metus arcu, fringilla id sapien ut, mattis imperdiet neque. Sed vestibulum nunc tortor, sed congue erat semper quis. Nulla quis sagittis mauris, a laoreet ex. Etiam vulputate nibh et ligula tristique, vitae faucibus nulla accumsan. Proin in ligula semper, congue urna at, tempor augue. Nulla lacinia, est eu blandit viverra, augue lectus vestibulum justo, sit amet volutpat justo odio a turpis. In hac habitasse platea dictumst.</div><div><br></div><div>Sed consectetur sed dui at finibus. Sed ipsum risus, euismod sed ante eu, tempus bibendum quam. Morbi sit amet interdum justo. Donec quis ex congue, facilisis leo ac, dignissim neque. Ut posuere tincidunt lectus eget ullamcorper. Duis arcu quam, consectetur vitae sodales id, dapibus sit amet diam. Mauris non tristique libero, at lacinia ipsum. In sed tortor nunc. Vivamus a massa tempor, laoreet orci ut, ornare mauris. Donec ullamcorper, ante eget aliquet hendrerit, arcu urna mollis magna, ac porta dui sem at enim. Vivamus dolor tortor, tincidunt in lorem pretium, pretium facilisis erat. Integer maximus pulvinar tempus. Etiam viverra nunc sem, eu placerat quam sollicitudin non. Praesent ac erat massa.</div><div><br></div><div>Donec sed mollis mi. Proin id molestie eros. Nunc dapibus hendrerit arcu in malesuada. Praesent ac egestas tellus. Mauris mattis maximus lacus, id facilisis velit molestie vitae. Nunc ligula nisi, lacinia ut turpis lobortis, placerat malesuada ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus eu viverra quam, vitae aliquam dolor. Etiam pulvinar tellus a augue imperdiet, et viverra nibh auctor. In ut risus efficitur, luctus turpis vel, tempor lectus. Donec sit amet ipsum urna.</div><div><br></div><div>Nullam ac erat eget mi pretium vulputate. Aenean sodales est nisl, et condimentum leo auctor ut. Duis mauris mi, feugiat mattis ipsum sed, sagittis sollicitudin.</div>",
+              "authorName": "ABANOUB S.",
+              "authorBio": "User"
+            },
+            {
+              "text": "<p class=\"mbr-reviews__p\">“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag &amp; drop with no time design bootstrap builder in present web design world.”</p>",
+              "authorName": "SUFFIAN A.",
+              "authorBio": "User"
+            },
+            {
+              "text": "",
+              "authorName": "JHOLLMAN C.",
+              "authorBio": "User"
+            }
+          ],
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "testimonial": [
+            {
+              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer finibus, nisi at feugiat vestibulum, tellus magna scelerisque nulla, ut semper diam dolor quis mauris. Integer porttitor augue nisl, a condimentum augue iaculis nec. Suspendisse finibus lobortis urna vel elementum. Morbi hendrerit pellentesque est. Maecenas at sem eget quam convallis placerat at bibendum elit. Fusce venenatis consequat diam. Mauris sagittis ipsum orci, eget vestibulum sapien commodo a. Praesent egestas eu purus et auctor. Curabitur bibendum nisi eget augue auctor, ut dapibus mi iaculis. Nulla laoreet molestie lacus nec consectetur. Sed quam urna, interdum at nibh nec, cursus efficitur orci. Phasellus dui enim, porta sed sagittis sed, lacinia vitae purus. Mauris molestie orci ut ante ultricies, non aliquet tellus mattis.<div><br></div><div>Vestibulum nec ipsum sit amet turpis aliquet bibendum. Donec purus purus, imperdiet nec turpis eget, euismod euismod lorem. Nulla non elit a ante consequat consectetur. Aenean sagittis a nunc vehicula tincidunt. In elementum hendrerit metus in auctor. In accumsan nisi vitae est maximus dictum. Vestibulum semper sapien nec sagittis tempor. Suspendisse potenti. Aliquam sed quam est. In hac habitasse platea dictumst. Duis a tempus nunc. Praesent justo dolor, ultrices id metus eget, molestie luctus dui.</div><div><br></div><div>Suspendisse at ante lacus. In a erat id est aliquet vestibulum at eget ligula. Aliquam erat volutpat. Ut vehicula libero eu eros dictum, ac egestas justo vestibulum. Sed metus arcu, fringilla id sapien ut, mattis imperdiet neque. Sed vestibulum nunc tortor, sed congue erat semper quis. Nulla quis sagittis mauris, a laoreet ex. Etiam vulputate nibh et ligula tristique, vitae faucibus nulla accumsan. Proin in ligula semper, congue urna at, tempor augue. Nulla lacinia, est eu blandit viverra, augue lectus vestibulum justo, sit amet volutpat justo odio a turpis. In hac habitasse platea dictumst.</div><div><br></div><div>Sed consectetur sed dui at finibus. Sed ipsum risus, euismod sed ante eu, tempus bibendum quam. Morbi sit amet interdum justo. Donec quis ex congue, facilisis leo ac, dignissim neque. Ut posuere tincidunt lectus eget ullamcorper. Duis arcu quam, consectetur vitae sodales id, dapibus sit amet diam. Mauris non tristique libero, at lacinia ipsum. In sed tortor nunc. Vivamus a massa tempor, laoreet orci ut, ornare mauris. Donec ullamcorper, ante eget aliquet hendrerit, arcu urna mollis magna, ac porta dui sem at enim. Vivamus dolor tortor, tincidunt in lorem pretium, pretium facilisis erat. Integer maximus pulvinar tempus. Etiam viverra nunc sem, eu placerat quam sollicitudin non. Praesent ac erat massa.</div><div><br></div><div>Donec sed mollis mi. Proin id molestie eros. Nunc dapibus hendrerit arcu in malesuada. Praesent ac egestas tellus. Mauris mattis maximus lacus, id facilisis velit molestie vitae. Nunc ligula nisi, lacinia ut turpis lobortis, placerat malesuada ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus eu viverra quam, vitae aliquam dolor. Etiam pulvinar tellus a augue imperdiet, et viverra nibh auctor. In ut risus efficitur, luctus turpis vel, tempor lectus. Donec sit amet ipsum urna.</div><div><br></div><div>Nullam ac erat eget mi pretium vulputate. Aenean sodales est nisl, et condimentum leo auctor ut. Duis mauris mi, feugiat mattis ipsum sed, sagittis sollicitudin.</div>",
+              "authorName": "ABANOUB S.",
+              "authorBio": "User"
+            }
+          ],
+          "_anchor": "testimonials1-14",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "count": "1",
+            "showName": false,
+            "showBio": false,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "header": "Jitse_B"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "contacts1-15",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3c3c3c",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logomakr-230efb-265x229-76.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "alert",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": "200",
+              "newWindow": false
+            }
+          },
+          "text1": "<strong>SHOP</strong><br>Klik hier om naar&nbsp;<br>de shop te gaan!<br><br>",
+          "text2": "<strong>CONTACT</strong><br>\nEmail: contact@MRxNetwork.nl<br>\nPhone: Geen<br>",
+          "text3": "<ul class=\"mbr-contacts__list\"></ul>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "footer1-16",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 MRxNetwork. <a class=\"mbr-footer__link text-gray\" href=\"NOPE\">Terms of Use</a>  | <a class=\"mbr-footer__link text-gray\" href=\"https://mobirise.com/\">Privacy Policy</a>"
         }
       ]
     }

@@ -168,3 +168,21 @@
 #footer1-x P {
   text-align: center;
 }
+#ext_menu-13 .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-13.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-13 .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-13 .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#contacts1-15 P {
+  text-align: center;
+}
+#footer1-16 P {
+  text-align: center;
+}
