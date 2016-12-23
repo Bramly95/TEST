@@ -1,14 +1,14 @@
 {
   "settings": {
     "name": "MRxNetwork",
-    "currentPage": "overons.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
       "styling": {}
     },
     "versionFirst": "3.10.4",
-    "uniqCompNum": 43,
+    "uniqCompNum": 44,
     "versionPublish": "3.10.4"
   },
   "pages": {
@@ -19,7 +19,8 @@
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "order": 1
       },
       "components": [
         {
@@ -80,6 +81,11 @@
             "Theme"
           ],
           "_name": "slider",
+          "_styles": {
+            "H1": {
+              "text-align": "center"
+            }
+          },
           "_params": {
             "autoplay": true,
             "paddingTop": 3,
@@ -125,12 +131,7 @@
             "showBullets": true
           },
           "_anchor": "slider-1",
-          "articleLayout": false,
-          "_styles": {
-            "H1": {
-              "text-align": "center"
-            }
-          }
+          "articleLayout": false
         },
         {
           "_tags": [
@@ -151,13 +152,18 @@
             "overlayColor": "#222"
           },
           "text": "VOLG ONS",
-          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a>      "
+          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"NONE\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"NONE\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a>      "
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "contacts1-3",
           "_params": {
             "paddingTop": 3,
@@ -192,20 +198,20 @@
               "newWindow": false
             }
           },
-          "text1": "<strong>SHOP</strong><br>Klik hier om naar&nbsp;<br>de shop te gaan!<br><br>",
+          "text1": "<strong>SHOP</strong><br><a href=\"http://MRxNetwork.buycraft.net\">Klik hier om naar&nbsp;</a><br><a href=\"http://MRxNetwork.buycraft.net\">de shop te gaan!</a><br><br>",
           "text2": "<strong>CONTACT</strong><br>\nEmail: contact@MRxNetwork.nl<br>\nPhone: Geen<br>",
-          "text3": "<ul class=\"mbr-contacts__list\"></ul>",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            }
-          }
+          "text3": "<ul class=\"mbr-contacts__list\"></ul>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "footer1-4",
           "_params": {
             "paddingTop": 3,
@@ -219,17 +225,14 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 MRxNetwork. <a class=\"mbr-footer__link text-gray\" href=\"NOPE\">Terms of Use</a>  | <a class=\"mbr-footer__link text-gray\" href=\"https://mobirise.com/\">Privacy Policy</a>",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            }
-          }
+          "text": "Copyright (c) 2016 MRxNetwork. <a class=\"mbr-footer__link text-gray\" href=\"NOPE\">Terms of Use</a>  | <a class=\"mbr-footer__link text-gray\" href=\"NONE\">Privacy Policy</a>"
         }
       ]
     },
     "Contact.html": {
-      "settings": {},
+      "settings": {
+        "order": 4
+      },
       "components": [
         {
           "_inherit": "menu",
@@ -288,6 +291,12 @@
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".mbr-header__text": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            }
+          },
           "_anchor": "form1-8",
           "_params": {
             "paddingTop": 3,
@@ -330,19 +339,18 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT ONS</a>",
-          "_styles": {
-            ".mbr-header__text": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT ONS</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "contacts1-6",
           "_params": {
             "paddingTop": 3,
@@ -379,18 +387,18 @@
           },
           "text1": "<strong>SHOP</strong><br>Klik hier om naar&nbsp;<br>de shop te gaan!<br><br>",
           "text2": "<strong>CONTACT</strong><br>\nEmail: contact@MRxNetwork.nl<br>\nPhone: Geen<br>",
-          "text3": "<ul class=\"mbr-contacts__list\"></ul>",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            }
-          }
+          "text3": "<ul class=\"mbr-contacts__list\"></ul>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "footer1-7",
           "_params": {
             "paddingTop": 3,
@@ -404,17 +412,14 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 MRxNetwork. <a class=\"mbr-footer__link text-gray\" href=\"NOPE\">Terms of Use</a>  | <a class=\"mbr-footer__link text-gray\" href=\"https://mobirise.com/\">Privacy Policy</a>",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            }
-          }
+          "text": "Copyright (c) 2016 MRxNetwork. <a class=\"mbr-footer__link text-gray\" href=\"NOPE\">Terms of Use</a>  | <a class=\"mbr-footer__link text-gray\" href=\"https://mobirise.com/\">Privacy Policy</a>"
         }
       ]
     },
     "Geenforum.html": {
-      "settings": {},
+      "settings": {
+        "order": 2
+      },
       "components": [
         {
           "_inherit": "menu",
@@ -520,6 +525,11 @@
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "contacts1-a",
           "_params": {
             "paddingTop": 3,
@@ -556,18 +566,18 @@
           },
           "text1": "<strong>SHOP</strong><br>Klik hier om naar&nbsp;<br>de shop te gaan!<br><br>",
           "text2": "<strong>CONTACT</strong><br>\nEmail: contact@MRxNetwork.nl<br>\nPhone: Geen<br>",
-          "text3": "<ul class=\"mbr-contacts__list\"></ul>",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            }
-          }
+          "text3": "<ul class=\"mbr-contacts__list\"></ul>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "footer1-b",
           "_params": {
             "paddingTop": 3,
@@ -581,17 +591,14 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 MRxNetwork. <a class=\"mbr-footer__link text-gray\" href=\"NOPE\">Terms of Use</a>  | <a class=\"mbr-footer__link text-gray\" href=\"https://mobirise.com/\">Privacy Policy</a>",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            }
-          }
+          "text": "Copyright (c) 2016 MRxNetwork. <a class=\"mbr-footer__link text-gray\" href=\"NOPE\">Terms of Use</a>  | <a class=\"mbr-footer__link text-gray\" href=\"https://mobirise.com/\">Privacy Policy</a>"
         }
       ]
     },
     "overons.html": {
-      "settings": {},
+      "settings": {
+        "order": 3
+      },
       "components": [
         {
           "_inherit": "menu",
@@ -650,6 +657,11 @@
             "Theme"
           ],
           "_name": "features1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "features1-i",
           "_params": {
             "paddingTop": 3,
@@ -816,31 +828,31 @@
           },
           "title6": "HOST ANYWHERE",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            }
-          }
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-g",
-          "text": "De server MRxNetwork is ontstaan uit een groep mensen die graag iets wouden doen op het server gebied, daarom zijn ze MRxNetwork begonnen.&nbsp;",
           "_styles": {
             "DIV": {
               "text-align": "center"
             }
-          }
+          },
+          "_anchor": "content1-g",
+          "text": "De server MRxNetwork is ontstaan uit een groep mensen die graag iets wouden doen op het server gebied, daarom zijn ze MRxNetwork begonnen.&nbsp;"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "contacts1-e",
           "_params": {
             "paddingTop": 3,
@@ -875,20 +887,20 @@
               "newWindow": false
             }
           },
-          "text1": "<strong>SHOP</strong><br>Klik hier om naar&nbsp;<br>de shop te gaan!<br><br>",
+          "text1": "<strong>SHOP</strong><br><a href=\"http://MRxNetwork.buycraft.net\">Klik hier om naar&nbsp;</a><br><a href=\"http://MRxNetwork.buycraft.net\">de shop te gaan!</a><br><br>",
           "text2": "<strong>CONTACT</strong><br>\nEmail: contact@MRxNetwork.nl<br>\nPhone: Geen<br>",
-          "text3": "<ul class=\"mbr-contacts__list\"></ul>",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            }
-          }
+          "text3": "<ul class=\"mbr-contacts__list\"></ul>"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "footer1-f",
           "_params": {
             "paddingTop": 3,
@@ -902,17 +914,14 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 MRxNetwork. <a class=\"mbr-footer__link text-gray\" href=\"NOPE\">Terms of Use</a>  | <a class=\"mbr-footer__link text-gray\" href=\"https://mobirise.com/\">Privacy Policy</a>",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            }
-          }
+          "text": "Copyright (c) 2016 MRxNetwork. <a class=\"mbr-footer__link text-gray\" href=\"NOPE\">Terms of Use</a>  | <a class=\"mbr-footer__link text-gray\" href=\"NONE\">Privacy Policy</a>"
         }
       ]
     },
     "Bramly95.html": {
-      "settings": {},
+      "settings": {
+        "order": 5
+      },
       "components": [
         {
           "_inherit": "menu",
@@ -999,6 +1008,9 @@
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
+            "count": "1",
+            "showName": false,
+            "showBio": false,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
@@ -1007,10 +1019,7 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "count": "1",
-            "showName": false,
-            "showBio": false
+            "showTitle": true
           },
           "header": "Bramly95"
         },
@@ -1067,6 +1076,11 @@
             "Theme"
           ],
           "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "footer1-o",
           "_params": {
             "paddingTop": 3,
@@ -1080,17 +1094,14 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 MRxNetwork. <a class=\"mbr-footer__link text-gray\" href=\"NOPE\">Terms of Use</a>  | <a class=\"mbr-footer__link text-gray\" href=\"https://mobirise.com/\">Privacy Policy</a>",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            }
-          }
+          "text": "Copyright (c) 2016 MRxNetwork. <a class=\"mbr-footer__link text-gray\" href=\"NOPE\">Terms of Use</a>  | <a class=\"mbr-footer__link text-gray\" href=\"https://mobirise.com/\">Privacy Policy</a>"
         }
       ]
     },
     "Effedylan.html": {
-      "settings": {},
+      "settings": {
+        "order": 6
+      },
       "components": [
         {
           "items": [
@@ -1125,6 +1136,9 @@
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
+            "count": "1",
+            "showName": false,
+            "showBio": false,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
@@ -1133,10 +1147,7 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "count": "1",
-            "showName": false,
-            "showBio": false
+            "showTitle": true
           },
           "header": "Effedylan"
         },
@@ -1245,6 +1256,11 @@
             "Theme"
           ],
           "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "footer1-r",
           "_params": {
             "paddingTop": 3,
@@ -1258,17 +1274,14 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 MRxNetwork. <a class=\"mbr-footer__link text-gray\" href=\"NOPE\">Terms of Use</a>  | <a class=\"mbr-footer__link text-gray\" href=\"https://mobirise.com/\">Privacy Policy</a>",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            }
-          }
+          "text": "Copyright (c) 2016 MRxNetwork. <a class=\"mbr-footer__link text-gray\" href=\"NOPE\">Terms of Use</a>  | <a class=\"mbr-footer__link text-gray\" href=\"https://mobirise.com/\">Privacy Policy</a>"
         }
       ]
     },
     "Alruin.html": {
-      "settings": {},
+      "settings": {
+        "order": 7
+      },
       "components": [
         {
           "_inherit": "menu",
@@ -1355,6 +1368,9 @@
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
+            "count": "1",
+            "showName": false,
+            "showBio": false,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
@@ -1363,10 +1379,7 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "count": "1",
-            "showName": false,
-            "showBio": false
+            "showTitle": true
           },
           "header": "Alruin"
         },
@@ -1423,6 +1436,11 @@
             "Theme"
           ],
           "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "footer1-u",
           "_params": {
             "paddingTop": 3,
@@ -1436,17 +1454,14 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 MRxNetwork. <a class=\"mbr-footer__link text-gray\" href=\"NOPE\">Terms of Use</a>  | <a class=\"mbr-footer__link text-gray\" href=\"https://mobirise.com/\">Privacy Policy</a>",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            }
-          }
+          "text": "Copyright (c) 2016 MRxNetwork. <a class=\"mbr-footer__link text-gray\" href=\"NOPE\">Terms of Use</a>  | <a class=\"mbr-footer__link text-gray\" href=\"https://mobirise.com/\">Privacy Policy</a>"
         }
       ]
     },
     "JustNiek345.html": {
-      "settings": {},
+      "settings": {
+        "order": 8
+      },
       "components": [
         {
           "_inherit": "menu",
@@ -1533,6 +1548,9 @@
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
+            "count": "1",
+            "showName": false,
+            "showBio": false,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "images/bg3.jpg",
@@ -1541,10 +1559,7 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "count": "1",
-            "showName": false,
-            "showBio": false
+            "showTitle": true
           },
           "header": "JustNiek345"
         },
@@ -1601,6 +1616,11 @@
             "Theme"
           ],
           "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "footer1-x",
           "_params": {
             "paddingTop": 3,
@@ -1614,17 +1634,14 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2016 MRxNetwork. <a class=\"mbr-footer__link text-gray\" href=\"NOPE\">Terms of Use</a>  | <a class=\"mbr-footer__link text-gray\" href=\"https://mobirise.com/\">Privacy Policy</a>",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            }
-          }
+          "text": "Copyright (c) 2016 MRxNetwork. <a class=\"mbr-footer__link text-gray\" href=\"NOPE\">Terms of Use</a>  | <a class=\"mbr-footer__link text-gray\" href=\"https://mobirise.com/\">Privacy Policy</a>"
         }
       ]
     },
     "Jitse_B.html": {
-      "settings": {},
+      "settings": {
+        "order": 9
+      },
       "components": [
         {
           "_inherit": "menu",
